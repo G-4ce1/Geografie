@@ -1,10 +1,7 @@
 body {
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 15%;
+  margin-top: 0%;
+  padding: 20%;
+  padding-top: 0%;
 }
 
 table {
@@ -12,11 +9,16 @@ table {
 }
 
 body {
-  background-color: white;
+  background-color:rgb(72, 72, 72);
   color: black;
-  font-family: sans-serif;
+  font-family:inherit;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  font-size: 1.2rem;
+  word-spacing: 0.5px;
+  display: grid;
 }
 
 hr {
@@ -27,23 +29,13 @@ hr {
   width: 50%;
 }
 
-#box1 {
-  width: 250px;
-  height: 250px;
-  font-size: 22px;
-  padding: 10px;
-}
-
-p {
-  letter-spacing: 0.2px;
-  line-height: 1.5;
-  font-size: 1.1rem;
-  word-spacing: 0.5px;
-}
-
 h3 {
   font-size: 2.5rem;
   color: #2d2d2d;
+}
+
+h4{
+  font-size: 2.4rem;
 }
 
 h2 {
@@ -54,6 +46,51 @@ h2 {
 .img1{
   border-radius: 80%;
   background-color: black;
+}
+
+.mainheader{
+  background: white url(earth.jpg) no-repeat scroll center;
+  color: white;
+  margin: 0;
+  padding: 10%;
+  box-shadow: 0 0 10px #2d2d2d;
+  background-size: cover;
+  text-shadow: 0 0 3px white;
+  background-color: cornflowerblue;
+}
+.main-nav{
+  background-color:rgb(46, 46, 46);
+  background-size: cover;
+  box-shadow: 0 5px 25px #2d2d2d;
+  position: sticky;
+  top: 0%;
+  border-width: 25px;
+}
+a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+
+}
+.main-nav a:hover{
+  background:cornflowerblue;
+}
+
+.main-nav a.Home{
+  background:rgb(205, 86, 71);
+  border-radius: 20px;
+}
+
+section{
+  padding: 5px;
+}
+
+.mainpage{
+  
+  background-color:rgb(255, 249, 234);
+  margin: 0px;
+  padding: 10%;
 }
 
 
